@@ -6,7 +6,7 @@ int main(){
 
     // Inicio: declarar as variaveis da Carta 1
     
-    //CARTA 1    
+    //CARTA 1 //    
 
     int carta_1,carta_2;
     char Estado_1[50], Estado_2[50];
