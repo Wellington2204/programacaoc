@@ -2,7 +2,7 @@
 
 int main(){
 
-    // DESAFIO SUPER TRUNFO
+    // DESAFIO SUPER TRUNFO //
 
     // Inicio: declarar as variaveis da Carta 1
     
