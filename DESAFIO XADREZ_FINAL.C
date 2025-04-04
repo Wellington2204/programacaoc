@@ -8,7 +8,7 @@ int main(){
     
     //CARTA 1    
 
-    int carta_1, carta_2;
+    int carta_1,carta_2;
     char Estado_1[50], Estado_2[50];
     char Codigodacarta_1[50], Codigodacarta_2[50];
     char NomedaCidade_1[50], NomedaCidade_2[50];
