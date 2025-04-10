@@ -4,7 +4,7 @@ int main(){
 
     // DESAFIO SUPER TRUNFO
 
-    // Inicio: declarar as variaveis da Carta 1
+    // Inicio: declarar as variaveis da Carta 1.
     
     //CARTA 1    
 
@@ -122,25 +122,35 @@ int main(){
    printf("Digite o Numero de Pontos Turisticos: %d\n", PontosTuristicos_2);
    printf("Resultado Densidade: %.2f\n", Densidade_2);
    printf("Resultado PIB per Capita: %.2f\n", PIBPerCapita_2);
-
-   CompPopulacao = Populacao_1 > Populacao_2;
-   CompArea = Area_1 > Area_2;
-   CompPIB = PIB_1 > PIB_2;
-   CompPontosTuristicos = PontosTuristicos_1 > PontosTuristicos_2;
-   CompSuperPoder = SuperPoder_1 > SuperPoder_2;
-   CompPIBPerCapita = PIBPerCapita_1 > PIBPerCapita_2;
-   
+ 
    printf("***Comparando as Cartas***\n");
 
-   printf("População: Carta 1 venceu \n", Populacao_1, CompPopulacao);
-   printf("Area: Carta 1 venceu \n", Area_1, CompArea);
-   printf("PIB: Carta 1  venceu \n", PIB_1, CompPIB);
-   printf("Pontos Turisticos: Carta 1 venceu \n", PontosTuristicos_1, CompPontosTuristicos);
-   printf("Densidade Populacional: Carta 2 venceu \n", Densidade_2, CompDensidade);
-   printf("PIB per Capita: Carta 1 venceu \n", PIBPerCapita_1, CompPIBPerCapita);
-   printf("Super Poder: Carta 1 venceu \n", SuperPoder_1, CompSuperPoder); 
-     
+   printf("Carta 1 São Paulo (SP): %.2f \n", PIB_1); 
+   printf("Carta 2 Rio de Janeiro (RJ): %.2f \n", PIB_2);
+   if (PIB_1 > PIB_2){
+   printf("Resultado: Carta 1 (São Paulo) venceu!\n");
+   }else{
+   printf("Resultado: Carta 2 (Rio de Janeiro) venceu!\n");
+   }
+   
+   printf("Carta 1 São Paulo (SP): %.2f \n", Densidade_1); 
+   printf("Carta 2 Rio de Janeiro (RJ): %.2f \n", Densidade_2);
+    if (Densidade_1 > Densidade_2){
+   printf("Resultado: Carta 1 (São Paulo) venceu!\n");     
+   }else{
+   printf("Resultado: Carta 2 (Rio de Janeiro) venceu!\n");
+   }
+
+   printf("Carta 1 São Paulo (SP): %d \n", Populacao_1); 
+   printf("Carta 2 Rio de Janeiro (RJ): %d \n", Populacao_2);
+   if (Populacao_1 > Populacao_2){
+   printf("Resultado: Carta 1 (São Paulo) venceu!\n");     
+   }else{
+   printf("Resultado: Carta 2 (Rio de Janeiro) venceu!\n");
+   }
+
    return 0;
    
 }   
+
 
