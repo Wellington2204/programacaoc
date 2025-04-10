@@ -29,7 +29,7 @@ int main(){
     //%i: Equivalente a %d. 
     //%f: Imprime um número de ponto flutuante no formato padrão. 
     //%e: Imprime um número de ponto flutuante na notação científica. 
-    //%c: Imprime um único caractere. 
+    //%c: Imprime um único caractere.. 
     //%s: Imprime uma cadeia (string) de caracteres.
 
    printf("***SUPER_TRUNFO_MESTRE***\n");
