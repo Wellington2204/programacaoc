@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "DESAFIO XADREZ.C": "cpp"
+        "DESAFIO XADREZ.C": "cpp",
+        "DESAFIO XADREZ_FINAL.C": "cpp",
+        "BatalhaNaval_Aventureiro_.C": "cpp"
     }
 }
